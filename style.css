@@ -1,0 +1,41 @@
+#todo-list {
+  width: 300px;
+  margin: 0 auto;
+}
+
+#todo-input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#add-button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+
+#add-button:hover {
+  background-color: #45a049;
+}
+
+#task-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task {
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: #f2f2f2;
+}
+
+.completed {
+  text-decoration: line-through;
+}
